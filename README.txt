@@ -20,3 +20,9 @@ maybe the cat's head could follow the cursor from side to side?
 
 license:
 idk... all rights reserved where applicable
+
+bug1:
+inconsistent rendering of the ascii art through different devices
+main developement and initial testing is performed on ubuntu with firefox
+on android with chrome the cat does not look right
+proposed solution: use images instead of javascript or host the characterset
