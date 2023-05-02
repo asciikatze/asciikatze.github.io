@@ -1,5 +1,9 @@
+@font-face {
+  font-family: Nimbus Sans;
+  src: url('nimbus-sans-l-regular.otf');
+}
 .katze {
-  font-family: 'Helvetica';
+  font-family: 'Nimbus Sans';
   color: white;
   font-size: 32px;
   position: absolute;
@@ -8,7 +12,7 @@
   transform: translate(-50%, -50%);
 }
 .text {
-  font-family: 'Helvetica';
+  font-family: 'Nimbus Sans';
   color: white;
   font-size: 12px;
   text-align: center;
