@@ -20,9 +20,10 @@ maybe the cat's head could follow the cursor from side to side?
 
 license:
 idk... all rights reserved where applicable
+Nimbus Sans L is licensed under the GNU General Public License (GPL)
 
-bug1:
+bug1: FIXED by providing a font file
 inconsistent rendering of the ascii art through different devices
 main developement and initial testing is performed on ubuntu with firefox
 on android with chrome the cat does not look right
-proposed solution: use images instead of javascript or host the characterset
+proposed solution: use images instead of javascript or host the characterset.
