@@ -35,7 +35,5 @@ var frame = [
 function getAnimation() {
   elem.innerHTML = frame[counter];
   counter++;
-  if (counter >= frame.length) {
-    counter = frame.length-8;
-  }
+  if (counter >= frame.length) {counter = frame.length-8}
 }
