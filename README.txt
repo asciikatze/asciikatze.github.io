@@ -10,7 +10,7 @@ less is more.
 how it works:
 style.js  decides between two css depending on browser time.
 line.js   shows a random line from a list.
-katze.js	animation of ascii cat.
+katze.js  animation of ascii cat.
 
 comments:
 think about how people with disabilities interact with the site.
