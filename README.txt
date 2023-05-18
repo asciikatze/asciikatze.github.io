@@ -1,6 +1,7 @@
 personal website so i can learn about web developement / trying out github
 
 design direction:
+think about how people with disabilities interact with the site.
 try to mask relevant information from webcrawlers.
 when implement scripts test without them.
 audit image/file metadata before hosting.
@@ -13,8 +14,7 @@ line.js   shows a random line from a list.
 katze.js  animation of ascii cat.
 
 comments:
-think about how people with disabilities interact with the site.
-test the asciiart on different devices becouse the character font can be different.
+test the asciiart on different devices because the character font can be different.
 
 license:
 idk... all rights reserved where applicable
