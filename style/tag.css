@@ -1,8 +1,8 @@
 @font-face {
   font-family: Nimbus Sans;
-  src: url('NimbusSanL-Reg.otf');
+  src: url('/style/NimbusSanL-Reg.otf');
   font-family: DejaVu Sans Mono;
-  src: url('DejaVuSansMono.ttf');
+  src: url('/style/DejaVuSansMono.ttf');
 }
 .katze {
   font-family: 'Nimbus Sans';
