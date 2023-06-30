@@ -1,6 +1,8 @@
 @font-face {
   font-family: Nimbus Sans;
   src: url('NimbusSanL-Reg.otf');
+  font-family: DejaVu Sans Mono;
+  src: url('DejaVuSansMono.ttf');
 }
 .katze {
   font-family: 'Nimbus Sans';
@@ -12,7 +14,7 @@
   transform: translate(-50%, -50%);
 }
 .text {
-  font-family: 'monospace';
+  font-family: 'DejaVu Sans Mono';
   color: black;
   font-size: 12px;
   text-align: center;
@@ -31,10 +33,11 @@ html {
     background-size: auto 50%; */
 }
 a {
-  color: black;
+  color: white;
   text-decoration: none;
+  background-color: black;
 }
 a:hover {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
