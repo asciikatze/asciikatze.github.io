@@ -18,4 +18,3 @@ test the asciiart on different devices because the character font can be differe
 
 license:
 idk... all rights reserved where applicable
-Nimbus Sans L is licensed under the GNU General Public License (GPL)
