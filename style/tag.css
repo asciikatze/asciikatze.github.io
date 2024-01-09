@@ -5,7 +5,7 @@
   src: url('/font/DejaVuSansMono.ttf');
 }
 .katze {
-  font-family: 'Nimbus Sans';
+  font-family: 'Nimbus Sans', 'Times New Roman';
   color: black;
   font-size: 48px;
   position: absolute;
