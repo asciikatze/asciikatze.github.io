@@ -7,7 +7,7 @@
 .katze {
   font-family: 'Nimbus Sans', 'Times New Roman';
   color: black;
-  font-size: 48px;
+  font-size: 52px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -17,7 +17,7 @@
 .text {
   font-family: 'DejaVu Sans Mono';
   color: black;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   position: fixed;
   bottom: 30px;
@@ -34,11 +34,10 @@ html {
     background-size: auto 50%; */
 }
 a {
-  color: white;
+  color: #d3d3d3;
   text-decoration: none;
-  background-color: black;
 }
-a:hover {
-  color: black;
-  background-color: white;
-}
+/*  a:hover {
+    color: black;
+    background-color: white;
+} */
