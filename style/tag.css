@@ -4,6 +4,13 @@
   font-family: DejaVu Sans Mono;
   src: url('/font/DejaVuSansMono.ttf');
 }
+html {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+/*  background:url(image.png) center no-repeat;
+    background-size: auto 50%; */
+}
 .katze {
   font-family: 'Nimbus Sans', 'Times New Roman';
   color: black;
@@ -23,16 +30,30 @@
   bottom: 30px;
   width: 99%;
 }
-.error {
+.content {
+  font-family: 'DejaVu Sans Mono';
   color: black;
+  font-size: 14px;
+  text-align: center;
+  position: fixed;
+  bottom: 50%;
+  width: 99%;
 }
-html {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-/*  background:url(image.png) center no-repeat;
-    background-size: auto 50%; */
+.btn {
+  font-family: 'DejaVu Sans Mono';
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
 }
+.btn:hover { background-color: #d3d3d3; }
+.error { color: black; }
 a {
   color: #d3d3d3;
   text-decoration: none;
