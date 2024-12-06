@@ -5,7 +5,7 @@ function getRandomstring() {
   string[2] = "just a reminder that if you were lazy then you'd be having fun";
   string[3] = "i'm sorry if i gave you the impression that i know stuff";
   string[4] = "not good with verbal expression in an immediate fashion";
-  string[5] = "i don't know if it's up to me to relax"
+//  string[5] = "i don't know if it's up to me to relax"
   var i = Math.floor(Math.random()*string.length);
   document.write(string[i]);
 }
