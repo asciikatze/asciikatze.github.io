@@ -31,9 +31,9 @@ var frame = [
   "&nbsp;&nbsp;/\\_/\\<br>&nbsp;&nbsp;>^,^<<br>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\<br>&nbsp;&nbsp;(__)___",
   "&nbsp;&nbsp;/\\_/\\<br>&nbsp;&nbsp;>^,^<<br>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\<br>&nbsp;&nbsp;(__)___",
   "&nbsp;&nbsp;/\\_/\\<br>&nbsp;&nbsp;>^,^<<br>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\<br>&nbsp;&nbsp;(__)___"
-];
+  ];
 function getAnimation() {
   elem.innerHTML = frame[counter];
   counter++;
   if (counter >= frame.length) {counter = frame.length-8}
-}
+  }
