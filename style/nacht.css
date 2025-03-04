@@ -1,10 +1,14 @@
-@font-face { font-family: Nimbus Sans; src: url('/font/NimbusSanL-Reg.otf'); }
-@font-face { font-family: Mono; src: url('/font/DejaVuSansMono.ttf'); }
+@font-face { font-family: mono; src: url('/style/space-mono.regular.ttf'); }
+@font-face { font-family: kat; src: url('/style/katze.ttf'); }
 
-html { background-color: black; }
-.katze {
-  font-family: 'Nimbus Sans';
+html {
+  font-family: 'mono';
   color: #ded2ba;
+  font-size: 16px;
+  background-color: black;
+  }
+.katze {
+  font-family: 'kat';
   font-size: 52px;
   position: absolute;
   top: 50%;
@@ -13,9 +17,6 @@ html { background-color: black; }
   line-height: 58px;
   }
 .text {
-  font-family: 'Mono';
-  color: #ded2ba;
-  font-size: 16px;
   line-height: 1.5;
   text-align: center;
   position: fixed;
@@ -26,7 +27,7 @@ a {
   color: black;
   background-color: #ded2ba;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 10px;
   }
 a:hover {
   color: #ded2ba;
