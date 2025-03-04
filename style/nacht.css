@@ -1,10 +1,14 @@
 @font-face { font-family: mono; src: url('/style/space-mono.regular.ttf'); }
 @font-face { font-family: kat; src: url('/style/katze.ttf'); }
 
-html { background-color: black; }
+html {
+  font-family: 'mono';
+  color: #ded2ba;
+  font-size: 16px;
+  background-color: black;
+  }
 .katze {
   font-family: 'kat';
-  color: #ded2ba;
   font-size: 52px;
   position: absolute;
   top: 50%;
@@ -13,9 +17,6 @@ html { background-color: black; }
   line-height: 58px;
   }
 .text {
-  font-family: 'mono';
-  color: #ded2ba;
-  font-size: 16px;
   line-height: 1.5;
   text-align: center;
   position: fixed;
