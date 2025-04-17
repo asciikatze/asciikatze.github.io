@@ -6,9 +6,9 @@ when implement scripts test without them.
 audit image/file metadata before hosting.
 
 how it works:
-style.js  decides between two css depending on client time.
-line.js   shows a random line from a list.
-katze.js  animation of ascii cat.
+style.js  <- decides between two css depending on client time.
+line.js   <- shows a random line from a list.
+katze.js  <- animation of ascii cat.
 
 license:
 idk... all rights reserved where applicable
