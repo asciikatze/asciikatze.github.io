@@ -7,8 +7,6 @@ function getRandomstring() {
   string[4] = "not good with verbal expression in an immediate fashion";
   string[5] = "only give fucks to things that fuck you back";
   string[6] = "easily undoable things are pretty great";
-  string[7] = "i don't know if it's up to me to relax";
-  string[8] = "i love when things are gonna be ok";
   var i = Math.floor(Math.random()*string.length);
   document.write(string[i]);
   }
