@@ -1,3 +1,4 @@
+// the lack of choice for the viewer is a deliberate decision by the maker
 function getStylesheet() {
   var currentTime = new Date().getHours();
   if (0 <= currentTime&&currentTime < 8) {document.write("<link rel='stylesheet' href='/style/nacht.css' type='text/css'>");}
