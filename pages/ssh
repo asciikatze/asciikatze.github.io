@@ -1,0 +1,29 @@
+<!doctype html>
+<html><head>
+     <meta http-equiv="content-type" content="text/html" charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="robots" content="noindex, nofollow, noimageindex, none">
+     <title>>^.^< /ssh</title>
+
+     <script src="style.js"></script>
+     <noscript><link rel="stylesheet" href="tag.css" type="text/css"></noscript>
+
+</head><body>
+     <div class="center"><center>
+     public key for ssh : <a href="isti-ssh.pub" download>&nbsp;download&nbsp;</a>
+     or 
+     <button onclick="copyText()">&nbsp;copy&nbsp;</button>&nbsp;to clipboard<br>
+     <noscript>sorry the copy function is not working currently >T,T<</noscript>
+     </center></div>
+
+     <script>
+     function copyText() {
+       navigator.clipboard.writeText
+       ("ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBGWfoka52mFTGnViwbHkU8hl3sToHL+LiZ6r/Kv2W12 isti");
+       }
+     </script>
+
+</body></html>
+<!--
+curl https://asciikatze.github.io/isti-ssh.pub | cat >> $HOME/.ssh/authorized_keys
+-->
