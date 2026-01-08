@@ -9,17 +9,29 @@
      <noscript><link rel="stylesheet" href="/style/tag.css" type="text/css"></noscript>
 
 </head><body>
-     <div class="center"><center>
-     public key for ssh : <a href="/isti-ssh.pub" download>&nbsp;download&nbsp;</a>
-     or 
-     <button onclick="copyText()">&nbsp;copy&nbsp;</button>&nbsp;to clipboard<br>
-     <noscript>sorry the copy function is not working currently >T,T<</noscript>
-     </center></div>
+     <div class="center" id="content">
+     <center>public key for ssh : <a href="/isti-ssh.pub" download>&nbsp;download&nbsp;</a></center>
+     </div>
 
+     <script>
+     function changeContent() {
+       let element = document.getElementById("content");
+       element.innerHTML = "<center>public key for ssh : <a href='isti-ssh.pub' download>&nbsp;download&nbsp;</a> or <button onclick='copyText(); playSound()'>&nbsp;copy&nbsp;</button>&nbsp;to clipboard</center>";
+       }
+     changeContent()
+     </script>
+     
      <script>
      function copyText() {
        navigator.clipboard.writeText
        ("ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBGWfoka52mFTGnViwbHkU8hl3sToHL+LiZ6r/Kv2W12 isti");
+       }
+     </script>
+
+     <script>
+     function playSound() {
+       var sound = new Audio('/pages/click_1.mp3');
+       sound.play();
        }
      </script>
 
