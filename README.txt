@@ -1,6 +1,4 @@
-         +------------------------------------------------------------+
-         | i'm here to learn about web developement and to try github |
-         +------------------------------------------------------------+
+i'm here to learn about web developement and to try github
 
            +---------------+
            | how it works  |
