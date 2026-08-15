@@ -33,16 +33,28 @@ a:hover, button:hover {
   transform: translate(-50%, -50%);
   line-height: 58px;
   }
-.text {
+.bottom {
   line-height: 1.5;
   text-align: center;
   position: fixed;
   bottom: 30px;
   width: 99%;
   }
-.center {
+.left {
+  text-align: left;
+  position: fixed;
+  left: 30px;
+  top: 45%;
+  }
+.right {
+  text-align: right;
+  position: fixed;
+  right: 30px;
+  top: 45%;
+  }
+.text {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 10%;
   right: 10%;
   }
