@@ -24,6 +24,9 @@ a:hover, button:hover {
   color: #ded2ba;
   background-color: #0f0f0f;
   }
+button:active {
+  transform: scale(1.05);
+  }
 .katze {
   font-family: 'kat';
   font-size: 52px;
@@ -54,7 +57,7 @@ a:hover, button:hover {
   }
 .text {
   position: absolute;
-  top: 10%;
+  bottom: 10%;
   left: 10%;
   right: 10%;
   }
