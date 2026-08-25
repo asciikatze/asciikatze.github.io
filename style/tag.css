@@ -41,6 +41,14 @@ button:active {
   transform: translate(-50%, -50%);
   line-height: 58px;
   }
+.katze2 {
+  font-family: 'kat';
+  font-size: 52px;
+  position: absolute;
+  bottom: 10%;
+  left: 80%;
+  line-height: 58px;
+  }
 .bottom {
   line-height: 1.5;
   text-align: center;

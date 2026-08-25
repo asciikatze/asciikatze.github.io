@@ -1,5 +1,5 @@
 document.write("|");
-var elem = document.getElementById("animation");
+var elem = document.getElementById("intro");
 var inst = setInterval(getAnimation, 500);
 var counter = 0;
 var frame = [
