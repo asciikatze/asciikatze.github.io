@@ -23,6 +23,7 @@ var frame = [
   "&nbsp;&nbsp;/\\_/\\<br>&nbsp;>^,^<<br>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\<br>&nbsp;&nbsp;(__)|",
   "&nbsp;&nbsp;/\\_/\\<br>&nbsp;>^,^<<br>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\<br>&nbsp;&nbsp;(__)___|",
   "&nbsp;&nbsp;/\\_/\\<br>&nbsp;>^,^<<br>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\<br>&nbsp;&nbsp;(__)___",
+  "&nbsp;&nbsp;/\\_/\\<br>&nbsp;>^,^<<br>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\<br>&nbsp;&nbsp;(__)___",
   "&nbsp;&nbsp;/\\_/\\<br>>^,^<<br>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\<br>&nbsp;&nbsp;(__)__/",
   "&nbsp;&nbsp;/\\_/\\<br>>^,^<<br>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\<br>&nbsp;&nbsp;(__)__/",
   "&nbsp;&nbsp;/\\_/\\<br>>^,^<<br>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;\\<br>&nbsp;&nbsp;(__)__/",
