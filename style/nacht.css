@@ -29,9 +29,6 @@ a:hover, button:hover {
   color: #ded2ba;
   background-color: #0f0f0f;
   }
-button:active {
-  transform: scale(1.05);
-  }
 .katze {
   font-family: 'kat';
   font-size: 52px;

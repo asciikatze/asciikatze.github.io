@@ -14,9 +14,9 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBGWfoka52mFTGnViwbHkU8hl3sToHL+LiZ6r/Kv2W12
           <a href="/isti-ssh.pub" download>&nbsp;file&nbsp;</a>
      </div>
 
-     <script>function changeContent() { let element = document.getElementById("content"); element.innerHTML = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBGWfoka52mFTGnViwbHkU8hl3sToHL+LiZ6r/Kv2W12 isti<br><a href='/isti-ssh.pub' download>&nbsp;file&nbsp;</a> <button onclick='copyCurl(); playSound();' title='COPY TO CLIPBOARD: curl https://asciikatze.github.io/isti-ssh.pub | cat >> $HOME/.ssh/authorized_keys'>&nbsp;curl&nbsp;</button>"; } changeContent()</script>
-     <script>function copyCurl() { navigator.clipboard.writeText ("curl https://asciikatze.github.io/isti-ssh.pub | cat >> $HOME/.ssh/authorized_keys"); }</script>
-     <script>function playSound() { var sound = new Audio('/media/click_1.mp3'); sound.play(); }</script>
+     <script>function displayOptions() { let element = document.getElementById("content"); element.innerHTML = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBGWfoka52mFTGnViwbHkU8hl3sToHL+LiZ6r/Kv2W12 isti<br><a href='/isti-ssh.pub' download>&nbsp;file&nbsp;</a> <button onclick='addCurl();'>&nbsp;cmd&nbsp;</button>"; } displayOptions()</script>
+     <script>function addCurl() { let element = document.getElementById("content"); element.innerHTML = "cmd: curl https://asciikatze.github.io/isti-ssh.pub | cat >> $HOME/.ssh/authorized_keys<br>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBGWfoka52mFTGnViwbHkU8hl3sToHL+LiZ6r/Kv2W12 isti<br><a href='isti-ssh.pub' download>&nbsp;file&nbsp;</a>"; }</script>     
+<!-- <script>function copyCurl() { navigator.clipboard.writeText ("curl https://asciikatze.github.io/isti-ssh.pub | cat >> $HOME/.ssh/authorized_keys"); }</script> -->
 
      <div class="katze2" id="idle">
           <script src="/script/katze2.js"></script>
